@@ -28,7 +28,7 @@ namespace ConsoleApp.Inventario
         private int codigo_bodega = 0;
         private int codigo_estante = 0;
         private int cantidad = 0;
-        private DateTime fecha = new DateTime (00, 00, 00);
+        private DateTime fecha = new DateTime(00, 00, 00);
         private string estado = "";
 
 
