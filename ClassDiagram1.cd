@@ -1,46 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="ConsoleApp.Inventario.Producto">
-    <Position X="8" Y="1" Width="1.5" />
+    <Position X="4.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAACAEAAAABAAAAAAAECAAAAAAAAgA=</HashCode>
+      <HashCode>AAACAAAAAAgAAAAACAEAAAABAAAAAAAECAAAAAAAAgA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Inventario1" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="ConsoleApp.Inventario.Inventario">
-    <Position X="11" Y="0.75" Width="1.5" />
+    <Position X="7.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ARACCAEAAQAAAAECCBAAAAAAAAAAAAAACAAAAAAAAgo=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ConsoleApp.Inventario.Proveedor">
-    <Position X="10.5" Y="5" Width="1.5" />
+    <Position X="0.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAACAAAAAAAAIAAAQCAAAAAAAAAAAAAAAAAAAEAAAgA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Producto1" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="ConsoleApp.Inventario.Estante">
-    <Position X="18" Y="0.75" Width="1.5" />
+    <Position X="7.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ABACAAAAAAAAAACCABAAgAAAAAAAAAAEAAAAAAAAAgI=</HashCode>
+      <HashCode>ABACAAAAAAgAAACCABAAgAAAAAAAAAAEAAAAAAAAAgI=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Inventario1" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="ConsoleApp.Inventario.Bodega">
-    <Position X="8" Y="4.5" Width="1.5" />
+    <Position X="11" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAABAAAAAACAAAAAAAAAAAAAAAEAAAEAAAAAgI=</HashCode>
+      <HashCode>AAACAAAABAgAAAACAAAAAAAAAAAAAAAEAAAEAAAAAgI=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Inventario1" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="ConsoleApp.Inventario.Sucursal">
-    <Position X="13.75" Y="1" Width="1.5" />
+    <Position X="11" Y="4.75" Width="1.5" />
+    <AssociationLine Name="Bodega1" Type="ConsoleApp.Inventario.Bodega" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="4.75" />
+        <Point X="12" Y="4.008" />
+        <Point X="12" Y="4.008" />
+        <Point X="12" Y="3.017" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAACAAAABAAAAACggAAAgIAAAAAAAAAAAAAEAAAAAgA=</HashCode>
+      <HashCode>AAACAAAQBAAAAACggAAAgIAAAAAAAAAAAAAEAAAAAgA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bodega1" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

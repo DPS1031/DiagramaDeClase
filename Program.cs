@@ -19,6 +19,14 @@ namespace ConsoleApp.Inventario
             {
             }
         }
+
+        public Inventario Inventario1
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 
     public class Inventario
@@ -60,6 +68,14 @@ namespace ConsoleApp.Inventario
             {
             }
         }
+
+        public Producto Producto1
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 
     public class Estante
@@ -75,6 +91,14 @@ namespace ConsoleApp.Inventario
         public int Codigo_bodega { get => this.codigo_bodega; set => this.codigo_bodega = value; }
 
         public Inventario Inventario
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Inventario Inventario1
         {
             get => default;
             set
@@ -100,6 +124,14 @@ namespace ConsoleApp.Inventario
             {
             }
         }
+
+        public Inventario Inventario1
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 
     public class Sucursal
@@ -115,6 +147,14 @@ namespace ConsoleApp.Inventario
         public string Ubicacion { get => this.ubicacion; set => this.ubicacion = value; }
 
         public Bodega Bodega
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Bodega Bodega1
         {
             get => default;
             set
