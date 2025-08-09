@@ -1,6 +1,7 @@
-# Diagrama de clase
+# Class Diagram
 ---
 
 ## Overview
 
-Ejercicio diagrama de clase
+
+Simple Class Diagram exercise
